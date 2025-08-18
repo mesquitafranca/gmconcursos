@@ -1429,7 +1429,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		width: 45em;
 		max-width: 100%;
-		margin: 0 auto 2em auto;
+		margin: 1px;
 	}
 
 		.gallery article {
@@ -2319,3 +2319,62 @@ input, select, textarea {
 		#textoInicio {
 			text-align: justify;
 		}
+
+#vetorheader {  
+width: 30px;
+height: 30px;
+fill: white;}
+
+.botaovenda {
+
+  background-color: #030725; /
+  color: white; 
+  text-decoration: none; /* Remove o sublinhado padrão */
+  display: inline-block; /* Permite aplicar margens e preenchimentos */
+  font-size: 95%; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor para mãozinha ao passar o mouse */
+  border-radius: 30px; /* Arredonda os cantos */
+
+
+}
+
+.botaovenda:hover {
+	color: black; 
+	background-color: white; /* Cor de fundo mais escura ao passar o mouse */
+
+}
+
+.caixa-transparente {
+	margin: 25px 250px;
+	padding: 10px;
+	border: 0;
+	font-size: 120%;
+	font: inherit;
+	vertical-align: baseline;
+  	background-color: rgba(255,255,255, 0.5);
+
+}
+
+.caixa-transparente:hover {
+  box-shadow: 10px 10px 20px rgba(67, 79, 248, 0.5);
+}
+
+#t97{
+	color: black;
+	text-decoration: line-through;
+}
+
+#t34{
+	font-size: 300%;
+	color: rgb(6, 6, 138)
+}
+
+.videoyoutube {
+	margin-right: 70px;}
+
+	.outrasimages {
+		width: 440px;
+		height: 277px;
+	}
+
+	
