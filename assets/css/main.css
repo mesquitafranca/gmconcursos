@@ -2327,13 +2327,16 @@ fill: white;}
 
 .botaovenda {
 
-  background-color: #030725; /
+  background-color: #030725; 
   color: white; 
   text-decoration: none; /* Remove o sublinhado padrão */
   display: inline-block; /* Permite aplicar margens e preenchimentos */
   font-size: 95%; /* Tamanho da fonte */
   cursor: pointer; /* Muda o cursor para mãozinha ao passar o mouse */
   border-radius: 30px; /* Arredonda os cantos */
+  padding: auto;
+  width: auto; /* Permite que a largura se ajuste ao conteúdo */
+  line-height: 1.5; /* Ajusta a altura da linha para centralizar o texto verticalmente */
 
 
 }
@@ -2345,7 +2348,7 @@ fill: white;}
 }
 
 .caixa-transparente {
-	margin: 25px 250px;
+	margin: 10% 12%;
 	padding: 10px;
 	border: 0;
 	font-size: 120%;
@@ -2369,12 +2372,32 @@ fill: white;}
 	color: rgb(6, 6, 138)
 }
 
-.videoyoutube {
-	margin-right: 70px;}
 
-	.outrasimages {
+.outrasimages {
 		width: 440px;
 		height: 277px;
 	}
 
+	.espacobranco {
+		padding: 1px;
+	}
+
+	.espacobranco2 {
+		padding: 3px;
+	}
+.video-container {
+      width: 100%;
+      max-width: 800px;  /* limite máximo */
+      margin: auto;
+      display: flex;
+      justify-content: center;
+	 
+    }
+
+    .video-container iframe {
+    
+     width: 90%;
+     border: 0;
+	 box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
 	
